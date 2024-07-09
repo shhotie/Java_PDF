@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta charset="utf-8" />
+</head>
+
+<body style="margin: 0;">
+
+<div id="p108" style="overflow: hidden; position: relative; background-color: white; width: 909px; height: 1286px;">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	transform-origin: bottom left;
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+	line-height: 1.5;
+}
+.text-container {
+	white-space: pre;
+}
+@supports (-webkit-touch-callout: none) {
+	.text-container {
+		white-space: normal;
+	}
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_108{left:604px;bottom:1228px;letter-spacing:-0.08px;word-spacing:-0.03px;}
+#t2_108{left:162px;bottom:1183px;letter-spacing:-0.08px;word-spacing:0.08px;}
+#t3_108{left:162px;bottom:1160px;letter-spacing:-0.07px;}
+#t4_108{left:162px;bottom:1137px;letter-spacing:-0.08px;}
+#t5_108{left:162px;bottom:1114px;letter-spacing:-0.07px;word-spacing:0.05px;}
+#t6_108{left:162px;bottom:1068px;letter-spacing:-0.07px;word-spacing:-0.02px;}
+#t7_108{left:162px;bottom:1021px;letter-spacing:-0.07px;word-spacing:-0.02px;}
+#t8_108{left:162px;bottom:975px;letter-spacing:-0.08px;}
+#t9_108{left:162px;bottom:952px;letter-spacing:-0.07px;}
+#ta_108{left:162px;bottom:928px;}
+#tb_108{left:162px;bottom:882px;letter-spacing:-0.09px;}
+#tc_108{left:162px;bottom:859px;letter-spacing:-0.08px;word-spacing:0.09px;}
+#td_108{left:162px;bottom:836px;}
+#te_108{left:162px;bottom:812px;letter-spacing:-0.07px;word-spacing:-0.02px;}
+#tf_108{left:162px;bottom:789px;letter-spacing:-0.07px;word-spacing:-0.03px;}
+#tg_108{left:162px;bottom:766px;letter-spacing:-0.08px;word-spacing:0.05px;}
+#th_108{left:162px;bottom:743px;letter-spacing:-0.06px;word-spacing:-0.02px;}
+#ti_108{left:162px;bottom:719px;}
+#tj_108{left:162px;bottom:696px;}
+
+.s0_108{font-size:17px;font-family:Calibri_cp;color:#4472C4;}
+.s1_108{font-size:20px;font-family:sub_Arial-BoldMT_lsb;color:#000;}
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts108" type="text/css" >
+
+@font-face {
+	font-family: Calibri_cp;
+	src: url("fonts/Calibri_cp.woff") format("woff");
+}
+
+@font-face {
+	font-family: sub_Arial-BoldMT_lsb;
+	src: url("fonts/sub_Arial-BoldMT_lsb.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg108Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg108" style="-webkit-user-select: none;"><object width="909" height="1286" data="108/108.svg" type="image/svg+xml" id="pdf108" style="width:909px; height:1286px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div class="text-container"><span id="t1_108" class="t s0_108">[Darshan Lohiya Interview Question] </span>
+<span id="t2_108" class="t s1_108">Query query = ss.createQuery("update Student set </span>
+<span id="t3_108" class="t s1_108">name='"+s.getName()+"', </span>
+<span id="t4_108" class="t s1_108">uname='"+s.getUname()+"',password='"+s.getPassword()+"',mobileno='" </span>
+<span id="t5_108" class="t s1_108">+s.getMobileno()+"' where uid="+s.getUid()+""); </span>
+<span id="t6_108" class="t s1_108">Transaction tx=ss.beginTransaction(); </span>
+<span id="t7_108" class="t s1_108">int i = query.executeUpdate(); </span>
+<span id="t8_108" class="t s1_108">tx.commit(); </span>
+<span id="t9_108" class="t s1_108">ss.close(); </span>
+<span id="ta_108" class="t s1_108">} </span>
+<span id="tb_108" class="t s1_108">@Override </span>
+<span id="tc_108" class="t s1_108">public Student editpage(int uid) </span>
+<span id="td_108" class="t s1_108">{ </span>
+<span id="te_108" class="t s1_108">Session ss=sf.openSession(); </span>
+<span id="tf_108" class="t s1_108">Query query=ss.createQuery("from Student where uid="+uid+""); </span>
+<span id="tg_108" class="t s1_108">Student st = (Student)query.getSingleResult(); </span>
+<span id="th_108" class="t s1_108">return st; </span>
+<span id="ti_108" class="t s1_108">} </span>
+<span id="tj_108" class="t s1_108">} </span></div>
+<!-- End text definitions -->
+
+
+</div>
+</body>
+</html>
